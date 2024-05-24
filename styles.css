@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #8B0000, #FF6347); /* Degradado de rojo oscuro a rojo claro */
+    background: linear-gradient(#8B0000, #FF6347); /* Degradado de rojo oscuro a rojo claro */
     color: #ffffff; /* Color de texto blanco para mejor contraste */
 }
 
 header {
-    background-color: #d32f2f;
+
     color: white;
     padding: 1rem;
     text-align: center;
@@ -37,7 +37,7 @@ section {
 }
 
 footer {
-    background-color: #d32f2f;
+
     color: white;
     text-align: center;
     padding: 1rem;
