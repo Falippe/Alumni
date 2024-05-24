@@ -3,50 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestión de Jugadores - Rugby U9 Alumni</title>
+    <title>Alumni Rugby U9</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="logo_alumni.png" alt="Alumni Rugby Club" class="logo">
-        <h1>Gestión de Jugadores - Rugby U9 Alumni</h1>
+        <h1>Bienvenidos al Equipo U9 de Alumni</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Información</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-
     <main>
-        <section class="form-section">
-            <h2>Registrar Nuevo Jugador</h2>
-            <form id="playerForm">
-                <div class="form-group">
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="dob">Fecha de Nacimiento:</label>
-                    <input type="date" id="dob" name="dob" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="document">Documento:</label>
-                    <input type="text" id="document" name="document" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="photo">Foto:</label>
-                    <input type="file" id="photo" name="photo" accept="image/*">
-                </div>
-                
-                <button type="submit">Guardar</button>
+        <section id="bienvenida">
+            <h2>Sobre Nosotros</h2>
+            <p>Bienvenidos al sitio oficial del equipo de rugby de menores de 9 años del Club Alumni.</p>
+        </section>
+        <section id="informacion">
+            <h2>Información del Jugador</h2>
+            <form>
+                <label for="nombre">Nombre del Jugador:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="documento">Documento:</label>
+                <input type="file" id="documento" name="documento">
+                <button type="submit">Enviar</button>
             </form>
         </section>
-
-        <section class="players-section">
-            <h2>Jugadores Registrados</h2>
-            <ul id="playerList"></ul>
-        </section>
     </main>
-
-    <script src="script.js"></script>
+    <footer>
+        <p>© 2024 Club Alumni. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
