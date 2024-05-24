@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(#FFFFFF, rgb(255, 122, 89));
+    background: linear-gradient(to bottom, #8B0000, #FF6347); /* Degradado de rojo oscuro a rojo claro */
+    color: #ffffff; /* Color de texto blanco para mejor contraste */
 }
 
 header {
-    background-color: #ff0f0f;
+    background-color: #d32f2f;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -29,7 +30,6 @@ nav ul li a {
 
 main {
     padding: 1rem;
-    
 }
 
 section {
