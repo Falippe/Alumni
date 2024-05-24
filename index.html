@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Jugadores - Rugby U9 Alumni</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gestión de Jugadores - Rugby U9 Alumni</h1>
+    <form id="playerForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="dob">Fecha de Nacimiento:</label>
+        <input type="date" id="dob" name="dob" required><br>
+        
+        <label for="document">Documento:</label>
+        <input type="text" id="document" name="document" required><br>
+        
+        <label for="photo">Foto:</label>
+        <input type="file" id="photo" name="photo" accept="image/*"><br>
+        
+        <button type="submit">Guardar</button>
+    </form>
+    
+    <h2>Jugadores Registrados</h2>
+    <ul id="playerList"></ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>
